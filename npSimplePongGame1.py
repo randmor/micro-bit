@@ -164,7 +164,7 @@ while gameOn:
         ballDirection *= -1
         hitCount += 1                       # Increment score
         
-        if hitCount < 21:                   # When you have 21 hits you win!
+        if hitCount >= 21:                  # When you have 21 hits you win!
             gameOn = False
             continue
         
